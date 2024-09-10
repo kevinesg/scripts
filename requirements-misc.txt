@@ -1,0 +1,4 @@
+python-dotenv
+google-cloud-storage
+google-cloud-bigquery
+httplib2
