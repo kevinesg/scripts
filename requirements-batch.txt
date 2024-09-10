@@ -1,0 +1,11 @@
+pandas
+pandas-gbq
+requests
+google-cloud-storage
+google-cloud-bigquery
+gspread
+gcsfs
+boto3
+botocore
+python-dotenv
+httplib2

@@ -1,0 +1,72 @@
+[
+	{
+		"name": "id",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "year",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "month",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "day",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "item",
+		"type": "STRING",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "type",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "cost",
+		"type": "FLOAT",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "to",
+		"type": "STRING",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "store",
+		"type": "STRING",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "source",
+		"type": "STRING",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "created_at",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "updated_at",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+    {
+        "name": "_inserted_at",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "_is_deleted",
+        "type": "BOOLEAN",
+        "mode": "REQUIRED"
+    }
+]

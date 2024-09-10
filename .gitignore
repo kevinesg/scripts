@@ -1,0 +1,11 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables file
+.env
+
+# temporarily exclude
+misc/alerts.py
