@@ -22,7 +22,7 @@ with open(dir + '/target/manifest.json', 'r') as f:
 with open(dir + '/target/catalog.json', 'r') as f:
     json_catalog = json.loads(f.read())
     
-with open(dir + '/dbt_data_catalog.html', 'w') as f:
+with open('home/kevinesg/github/kevinesg.github.io/dbt_data_catalog.html', 'w') as f:
     new_str = "n=[{label: 'manifest', data: "+json.dumps(json_manifest)+"},{label: 'catalog', data: "+json.dumps(json_catalog)+"}]"
     new_content = content_index.replace(search_str, new_str)
     f.write(new_content)
